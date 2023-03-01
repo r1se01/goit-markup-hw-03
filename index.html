@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" 
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+     crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -13,6 +17,7 @@
 
   <body>
     <header class="hw-header">
+      <div class="container header-container">
       <nav>
      <a href="./index.html" class="logo link">Web<span class="logo-span">Studio</span></a>
         </a>
@@ -28,21 +33,26 @@
        <address class="hw-header-address list">
         <li><a href="info@devstudio.com" class="hw-header-mail link">info@devstudio.com</a></li>
         <li ><a href="tel:+110001111111" class="hw-header-tel link">+11 (000) 111-11-11</a></li>
-      </ul></address> 
+      </ul>
+    </address>
+     </div>
     </header>
 
     <main>
       <!-- Герой -->
       <section class="hw-hero">
+        <div class="container">
         <h1 class="hw-hero-title">
           Effective Solutions for Your Business
         </h1>
         <button class="hw-hero-btn" type="button">Order Service</button>
+        </div>
       </section>
 
 
       <!-- Наші стратегії -->
       <section class="hw-strategy ">
+        <div class="container">
         <ul class="hw-strategy-list list">
           <li>
             <h3 class="hw-strategy-title">Strategy</h3>
@@ -73,11 +83,14 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
 
       <!-- Чим ми займаємося -->
       <section class="hw-do">
-        <h2>What are we doing</h2>
+        <div class="container hw-do-container">
+          <div class="hw-do-content">
+        <h2 class="hw-do-title">What are we doing</h2>
         <img
           src="./images/monitor.jpg"
           alt="monitor"
@@ -96,10 +109,13 @@
           width="360"
           height="300"
         />
+        </div>
+        </div>
       </section>
 
       <!-- Наша команда -->
       <section class="hw-team list">
+        <div class="container">
         <h2 class="hw-team-title">Our team</h2>
         <ul class="hw-team-item list">
           <li>
@@ -143,16 +159,18 @@
             <p class="hw-team-subtitle">UI Designer</p>
           </li>
         </ul>
-
+       </div>
       </section>
     </main>
     <footer>
+      <div class="container">
   <a href="./index.html" class="logo link">Web<span class="logo-span">Studio</span></a>
 
       <p class="footer-title">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+      </div>
     </footer>
   </body>
 </html>
