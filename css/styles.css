@@ -14,8 +14,11 @@ body {
   background-color: var(--background);
 }
 .container {
-  width: 1440px;
-  margin: 0 auto;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .list {
   list-style: none;
@@ -25,6 +28,7 @@ body {
 }
 
 .logo {
+  font-family: raleway;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -36,6 +40,7 @@ body {
   color: var(--iris);
 }
 .logo-span {
+  font-family: raleway;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -75,6 +80,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+  padding-right: 220px;
+  margin: 0;
+  padding: 0;
 }
 .hw-header-item {
   font-weight: 500;
@@ -105,11 +113,17 @@ body {
 }
 
 .hw-hero {
+  padding: 188px 0;
   background-color: var(--navyblue);
 }
 .hw-hero-title {
-  padding: 188px 472px 292px;
-  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  width: 496px;
+  height: 120px;
+  left: 472px;
+  top: 260px;
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -129,11 +143,15 @@ body {
   padding: 120px 0px;
 }
 .hw-strategy-list {
+  padding: 0;
+  margin: 0;
   display: flex;
   gap: 24px;
 }
 
 .hw-strategy-title {
+  padding: 0;
+  margin: 0;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -147,24 +165,35 @@ body {
 }
 
 .hw-do {
-  padding: 120px 0;
+  display: flex;
+}
+.hw-do-list {
+  display: flex;
+  gap: 24px;
+}
+.hw-do-item {
+  display: flex;
 }
 .hw-team {
   background-color: var(--cloud);
 }
-.hw-do-container {
-}
-.hw-do-content {
-  align-items: center;
-  gap: 24px;
-}
+
 .list {
 }
 .hw-do-title {
   margin-bottom: 72px;
   text-align: center;
 }
+.hw-team-background {
+  margin-top: 120px;
+  text-align: center;
+  padding-top: 32;
+  padding-bottom: 8;
+  margin: 0;
+}
 .hw-team-title {
+  padding-top: 120px;
+  padding-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   text-align: center;
@@ -215,6 +244,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--navyblue);
 }
+.header-address-list {
+  display: flex;
+}
 .header-item {
 }
 .header-link {
@@ -231,10 +263,16 @@ body {
   letter-spacing: 0.02em;
   color: var(--navyblue);
 }
-.header-content {
+.header-container {
   display: flex;
 }
+.header-content {
+  text-align: center;
+  display: flex;
+  gap: 40px;
+}
 .header-address {
+  display: flex;
 }
 .header-mail {
   font-style: normal;
@@ -252,6 +290,7 @@ body {
 }
 
 .hero {
+  box-sizing: border-box;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -267,7 +306,7 @@ body {
   color: var(--white);
 }
 .hero-list {
-  margin: 168px 427px;
+  margin: 72px;
   display: flex;
   gap: 24px;
   font-size: 16px;
@@ -277,6 +316,8 @@ body {
 }
 
 .hero-btn {
+  margin: 0;
+  padding: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -285,6 +326,17 @@ body {
   color: var(--iris);
 }
 
+.portfolio-background {
+  background-color: var(--cornflower);
+  gap: 24px;
+  padding-top: 32px;
+  padding-bottom: 8px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
 .portfolio {
 }
 .portfolio-list {

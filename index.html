@@ -18,7 +18,7 @@
   <body>
     <header class="hw-header">
       <div class="container header-container">
-      <nav>
+      <nav style="display: flex;">
      <a href="./index.html" class="logo link">Web<span class="logo-span">Studio</span></a>
         </a>
 
@@ -88,28 +88,33 @@
 
       <!-- Чим ми займаємося -->
       <section class="hw-do">
-        <div class="container hw-do-container">
-          <div class="hw-do-content">
+        <div class="container">
+          
         <h2 class="hw-do-title">What are we doing</h2>
-        <img
+        <ul class="hw-do-list">
+          <li class="hw-do-item list">
+            <img
           src="./images/monitor.jpg"
           alt="monitor"
           width="360"
           height="300"
-        />
-        <img
+        /></li>
+          <li class="hw-do-item list"> 
+            <img
           src="./images/phone-1.jpg"
           alt="pnone-1"
           width="360"
           height="300"
-        />
-        <img
+        /></li>
+          <li class="hw-do-item list"> 
+            <img
           src="./images/phone-2.jpg"
           alt="phone-2"
           width="360"
           height="300"
-        />
-        </div>
+        /></li>
+        </ul>
+
         </div>
       </section>
 
@@ -117,6 +122,7 @@
       <section class="hw-team list">
         <div class="container">
         <h2 class="hw-team-title">Our team</h2>
+        <div class="hw-team-background"> 
         <ul class="hw-team-item list">
           <li>
             <img
@@ -125,18 +131,24 @@
               width="264"
            
             />
+            
             <h3 class="hw-team-name">Mark Guerrero</h3>
             <p class="hw-team-subtitle">Product Designer</p>
+        
+            
           </li>
           <li>
             <img
               src="./images/team-2.jpg"
               alt="man-2"
               width="264"
-             
             />
-             <h3 class="hw-team-name">Tom Ford</h3>
-            <p class="hw-team-subtitle">Frontend Developer</p>
+          
+          <h3 class="hw-team-name">Tom Ford</h3>
+          <p class="hw-team-subtitle">Frontend Developer</p>
+         
+          
+          
           </li>
           <li>
             <img
@@ -145,8 +157,11 @@
               width="264"
              
             /> 
-            <h3 class="hw-team-name">Camila Garcia</h3>
-            <p class="hw-team-subtitle">Marketing</p>
+            
+          <h3 class="hw-team-name">Camila Garcia</h3>
+          <p class="hw-team-subtitle">Marketing</p>
+          
+          
           </li>
           <li>
             <img
@@ -155,10 +170,13 @@
               width="264"
              
             />
+           
              <h3 class="hw-team-name">Daniel Wilson</h3>
             <p class="hw-team-subtitle">UI Designer</p>
+          
           </li>
         </ul>
+        </div>
        </div>
       </section>
     </main>
