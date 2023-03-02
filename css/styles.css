@@ -325,9 +325,10 @@ body {
   letter-spacing: 0.04em;
   color: var(--iris);
 }
-
-.portfolio-background {
+.portfolio-text {
   background-color: var(--cornflower);
+}
+.portfolio-background {
   gap: 24px;
   padding-top: 32px;
   padding-bottom: 8px;
