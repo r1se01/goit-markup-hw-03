@@ -21,6 +21,8 @@ body {
   margin-right: auto;
 }
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 .link {
@@ -28,7 +30,7 @@ body {
 }
 
 .logo {
-  font-family: raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -40,7 +42,7 @@ body {
   color: var(--iris);
 }
 .logo-span {
-  font-family: raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -63,28 +65,23 @@ body {
   color: var(--navyblue);
 }
 .hw-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: flex;
 }
 
 .hw-header-list:hover,
 .hw-header-list:focus {
-  background-color: var(--cornflower);
   color: purple;
 }
 .hw-header-list {
-  margin-top: 24px;
-  margin-bottom: 24px;
   display: flex;
   gap: 40px;
-  background-color: var(--cornflower);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navyblue);
-  padding-right: 220px;
-  margin: auto;
-  padding: auto;
 }
 .hw-header-item {
   font-weight: 500;
@@ -119,12 +116,11 @@ body {
   background-color: var(--navyblue);
 }
 .hw-hero-title {
+  margin: 0;
   margin-left: auto;
   margin-right: auto;
   width: 496px;
-  height: 120px;
-  left: 472px;
-  top: 260px;
+
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -133,7 +129,9 @@ body {
 }
 
 .hw-hero-btn {
-  text-align: center;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
   margin-top: 48px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -167,6 +165,8 @@ body {
   color: var(--navyblue);
 }
 .hw-strategy-subtitle {
+  padding: 0;
+  margin: 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -174,9 +174,12 @@ body {
 }
 
 .hw-do {
+  padding-bottom: 120px;
   display: flex;
 }
 .hw-do-list {
+  padding: 0;
+  margin: 0;
   display: flex;
   gap: 24px;
 }
@@ -184,25 +187,31 @@ body {
   display: flex;
 }
 .hw-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: var(--cloud);
 }
 
 .list {
 }
 .hw-do-title {
-  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navyblue);
+  margin-bottom: 72px;
 }
 .hw-team-background {
-  margin-top: 120px;
+  padding-top: 32px;
+  padding-bottom: 8px;
+  background-color: var(--white);
   text-align: center;
-  padding-top: 32;
-  padding-bottom: 8;
-  margin: 0;
 }
 .hw-team-title {
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   text-align: center;
@@ -210,10 +219,13 @@ body {
   color: var(--navyblue);
 }
 .hw-team-item {
+  padding: 0;
+  margin: 0;
   display: flex;
   gap: 24px;
 }
 .hw-team-name {
+  margin: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -221,15 +233,19 @@ body {
   color: var(--navyblue);
 }
 .hw-team-subtitle {
+  margin-top: 8px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navyblue);
 }
 .hw-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: var(--navyblue);
 }
 .footer-title {
+  margin-top: 16px;
   width: 264px;
   height: 72px;
   left: 156px;
@@ -245,7 +261,6 @@ body {
 /* HW-1 */
 
 .header {
-  background-color: var(--cornflower);
 }
 .header-navigation {
   display: flex;
@@ -254,6 +269,8 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 .header-list {
+  padding: 0;
+  margin: 0;
   display: flex;
   gap: 40px;
   font-weight: 500;
@@ -306,7 +323,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-
+.hero-section {
+}
 .hero {
   box-sizing: border-box;
 }
@@ -324,7 +342,9 @@ body {
   color: var(--white);
 }
 .hero-list {
-  margin: 72px;
+  margin-top: 96px;
+  justify-content: center;
+  margin-bottom: 72px;
   display: flex;
   gap: 24px;
   font-size: 16px;
@@ -334,18 +354,22 @@ body {
 }
 
 .hero-btn {
-  width: 116px;
-  height: 48px;
   margin: 0;
-  padding: 0;
+  padding: 12px 24px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--iris);
+  border: 0;
+  background-color: var(--cornflower);
 }
 .portfolio-text {
+  padding: 0;
+  border-left: 16px;
+  border-right: 54px;
+  border-bottom: 64px;
 }
 .portfolio-background {
   gap: 24px;
@@ -367,6 +391,11 @@ body {
   margin-bottom: 48px;
 }
 .portfolio-item {
+  padding: 0;
+  margin: 0;
+  margin-left: 16px;
+  margin-top: 32px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -374,6 +403,10 @@ body {
   color: var(--navyblue) w;
 }
 .portfolio-subtitle {
+  padding: 0;
+  margin: 0;
+  margin-left: 16px;
+  margin-bottom: 32px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -381,13 +414,14 @@ body {
 }
 
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: var(--navyblue);
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   align-items: flex-start;
   padding: 0px;
-
   position: absolute;
   width: 115px;
   height: 22px;
