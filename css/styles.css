@@ -20,6 +20,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.img {
+  display: block;
+  height: auto;
+}
 .list {
   padding: 0;
   margin: 0;
