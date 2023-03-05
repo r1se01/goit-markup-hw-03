@@ -8,7 +8,15 @@
   --ocean: #404bbf;
   --cloud: #f4f4fd;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--background);
@@ -20,8 +28,9 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.img {
+img {
   display: block;
+  max-width: 100%;
   height: auto;
 }
 .list {
@@ -59,7 +68,14 @@ body {
 
 /* HW-1 */
 .header-container {
+  align-items: center;
   display: flex;
+}
+.hw-address-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px;
 }
 .hw-header-link {
   font-weight: 500;
@@ -79,6 +95,7 @@ body {
   color: purple;
 }
 .hw-header-list {
+  margin-left: auto;
   display: flex;
   gap: 40px;
   font-weight: 500;
@@ -116,15 +133,16 @@ body {
 }
 
 .hw-hero {
+  text-align: center;
   padding: 188px 0;
   background-color: var(--navyblue);
 }
 .hw-hero-title {
+  margin-bottom: 48px;
   margin: 0;
   margin-left: auto;
   margin-right: auto;
   width: 496px;
-
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -141,14 +159,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--iris);
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 428px;
+  min-width: 169px;
+  min-height: 56px;
 }
 .hw-strategy {
   padding: 120px 0px;
@@ -161,6 +176,7 @@ body {
 }
 
 .hw-strategy-title {
+  font-weight: 500;
   padding: 0;
   margin: 0;
   font-size: 20px;
@@ -199,6 +215,8 @@ body {
 .list {
 }
 .hw-do-title {
+  padding: 0;
+  margin: 0;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -215,6 +233,8 @@ body {
   text-align: center;
 }
 .hw-team-title {
+  margin: 0;
+  padding: 0;
   margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
@@ -229,7 +249,9 @@ body {
   gap: 24px;
 }
 .hw-team-name {
-  margin: 8px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -237,7 +259,8 @@ body {
   color: var(--navyblue);
 }
 .hw-team-subtitle {
-  margin-top: 8px;
+  margin: 0;
+  padding: 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -249,9 +272,10 @@ body {
   background-color: var(--navyblue);
 }
 .footer-title {
+  margin: 0;
+  padding: 0;
   margin-top: 16px;
   width: 264px;
-  height: 72px;
   left: 156px;
   font-size: 16px;
   line-height: 1.5;
@@ -286,7 +310,28 @@ body {
 .header-address-list {
   display: flex;
 }
+.header-link:hover,
+.header-link:focus {
+  color: var(--ocean);
+}
+.header-tel:hover,
+.header-mail:focus {
+  color: var(--ocean);
+}
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--ocean);
+}
+.header-list:hover {
+  color: var(--ocean);
+}
 .header-item {
+}
+.header-address:hover {
+  color: var(--ocean);
+}
+.header-address:focus {
+  color: var(--ocean);
 }
 .header-link {
   font-weight: 500;
@@ -311,6 +356,7 @@ body {
   gap: 40px;
 }
 .header-address {
+  margin-left: auto;
   display: flex;
 }
 .header-mail {
@@ -328,6 +374,8 @@ body {
   color: var(--slate);
 }
 .hero-section {
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 .hero {
   box-sizing: border-box;
@@ -346,7 +394,6 @@ body {
   color: var(--white);
 }
 .hero-list {
-  margin-top: 96px;
   justify-content: center;
   margin-bottom: 72px;
   display: flex;
@@ -358,6 +405,7 @@ body {
 }
 
 .hero-btn {
+  border-radius: 4px;
   margin: 0;
   padding: 12px 24px;
   font-family: 'Roboto', sans-serif;
@@ -370,6 +418,8 @@ body {
   background-color: var(--cornflower);
 }
 .portfolio-text {
+  border: 0 1 1 1 solid;
+  color: var(--navyblue);
   padding: 0;
   border-left: 16px;
   border-right: 54px;
@@ -395,10 +445,7 @@ body {
   margin-bottom: 48px;
 }
 .portfolio-item {
-  padding: 0;
-  margin: 0;
-  margin-left: 16px;
-  margin-top: 32px;
+  padding: 32px 54px 64px 16px;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -407,7 +454,6 @@ body {
   color: var(--navyblue) w;
 }
 .portfolio-subtitle {
-  padding: 0;
   margin: 0;
   margin-left: 16px;
   margin-bottom: 32px;
