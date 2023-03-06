@@ -431,9 +431,8 @@ img {
 }
 .portfolio-text {
   padding-left: 16px;
-  padding-right: 54px;
   padding-top: 32px;
-  padding-bottom: 64px;
+  padding-bottom: 32px;
   border-left: 1px solid var(--cornflower);
   border-right: 1px solid var(--cornflower);
   border-bottom: 1px solid var(--cornflower);
