@@ -142,7 +142,7 @@ img {
   margin: 0;
   margin-left: auto;
   margin-right: auto;
-  width: 496px;
+  width: 500px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -152,6 +152,7 @@ img {
 
 .hw-hero-btn {
   border-radius: 4px;
+  border: none;
   justify-content: center;
   align-items: center;
   margin-top: 48px;
@@ -179,6 +180,7 @@ img {
   font-weight: 500;
   padding: 0;
   margin: 0;
+  margin-bottom: 8px;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -228,7 +230,7 @@ img {
 }
 .hw-team-background {
   padding-top: 32px;
-  padding-bottom: 8px;
+  padding-bottom: 32px;
   background-color: var(--white);
   text-align: center;
 }
@@ -289,6 +291,7 @@ img {
 /* HW-1 */
 
 .header {
+  border-bottom: 1px solid var(--cornflower);
 }
 .header-navigation {
   display: flex;
@@ -297,7 +300,7 @@ img {
   font-family: 'Raleway', sans-serif;
 }
 .header-list {
-  padding: 0;
+  padding: 24px;
   margin: 0;
   display: flex;
   gap: 40px;
@@ -307,6 +310,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--navyblue);
 }
+
 .header-address-list {
   display: flex;
 }
@@ -326,6 +330,8 @@ img {
   color: var(--ocean);
 }
 .header-item {
+  margin: 0;
+  padding: 0;
 }
 .header-address:hover {
   color: var(--ocean);
@@ -339,6 +345,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+}
+.header-content {
+  margin: 0;
+  padding: 0;
 }
 .header-list {
   font-weight: 500;
@@ -356,6 +366,8 @@ img {
   gap: 40px;
 }
 .header-address {
+  margin: 0;
+  padding: 0;
   margin-left: auto;
   display: flex;
 }
@@ -418,18 +430,18 @@ img {
   background-color: var(--cornflower);
 }
 .portfolio-text {
-  border: 0 1 1 1 solid;
-  color: var(--navyblue);
-  padding: 0;
-  border-left: 16px;
-  border-right: 54px;
-  border-bottom: 64px;
+  padding-left: 16px;
+  padding-right: 54px;
+  padding-top: 32px;
+  padding-bottom: 64px;
+  border-left: 1px solid var(--cornflower);
+  border-right: 1px solid var(--cornflower);
+  border-bottom: 1px solid var(--cornflower);
 }
 .portfolio-background {
-  gap: 24px;
+  gap: 48px 24px;
   padding-top: 32px;
   padding-bottom: 8px;
-
   margin: 0;
   padding: 0;
   display: flex;
@@ -445,7 +457,6 @@ img {
   margin-bottom: 48px;
 }
 .portfolio-item {
-  padding: 32px 54px 64px 16px;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -455,8 +466,6 @@ img {
 }
 .portfolio-subtitle {
   margin: 0;
-  margin-left: 16px;
-  margin-bottom: 32px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -479,6 +488,7 @@ img {
   top: 1864px;
 }
 .footer-subtitle {
+  padding-top: 16px;
   width: 264px;
   height: 72px;
   left: 156px;
